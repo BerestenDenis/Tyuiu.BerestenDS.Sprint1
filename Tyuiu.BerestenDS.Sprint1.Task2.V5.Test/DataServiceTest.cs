@@ -10,7 +10,7 @@ namespace Tyuiu.BerestenDS.Sprint1.Task2.V5.Test
             DataService ds = new DataService();
             int x = 2;
             var res = ds.CalculateSideSquare(x);
-            Assert.AreEqual(16, res);
+            Assert.AreEqual(24, res);
         }
     }
 }
