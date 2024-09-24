@@ -9,9 +9,9 @@ namespace Tyuiu.BerestenDS.Sprint1.Task3.V9.Test
         {
             DataService ds = new DataService();
             int x = 150;
-            int hours = 2;
+            double hours = 2.30;
             var res = ds.ConvertMinutesToHours(x);
-            Assert.AreEqual(hours, res);
+            Assert.AreEqual((double)hours, res);
         }
     }
 }

@@ -29,7 +29,7 @@ namespace Tyuiu.BerestenDS.Sprint1.Task3.V9
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Минуты в часы =  " + ds.ConvertMinutesToHours(x));
+            Console.WriteLine("Минуты в часы и минуты =  " + ds.ConvertMinutesToHours(x));
 
             Console.ReadLine();
         }
