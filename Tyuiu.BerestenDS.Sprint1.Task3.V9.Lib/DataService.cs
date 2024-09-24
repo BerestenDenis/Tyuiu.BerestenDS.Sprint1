@@ -5,7 +5,7 @@ namespace Tyuiu.BerestenDS.Sprint1.Task3.V9.Lib
     {
         public double ConvertMinutesToHours(int minutes)
         {
-            return minutes/60 + (minutes % 60 * 0.01);
+            return minutes / 60;
         }
     }
 }

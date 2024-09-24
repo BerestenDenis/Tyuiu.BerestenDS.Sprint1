@@ -22,6 +22,7 @@ namespace Tyuiu.BerestenDS.Sprint1.Task3.V9
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             int x;
+            int y;
             Console.WriteLine("Введите значение x");
             x = Convert.ToInt32(Console.ReadLine());
 
@@ -29,7 +30,7 @@ namespace Tyuiu.BerestenDS.Sprint1.Task3.V9
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Минуты в часы и минуты =  " + ds.ConvertMinutesToHours(x));
+            Console.WriteLine("Минуты в часы и минуты =  " + ds.ConvertMinutesToHours(x) + " часов " + (y = x % 60) + " минут");
 
             Console.ReadLine();
         }
